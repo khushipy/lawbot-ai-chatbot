@@ -1,7 +1,7 @@
 import streamlit as st
 from dotenv import load_dotenv
 from langchain.llms import OpenAI
-llm = OpenAI(openai_api_key="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")
+llm = OpenAI(openai_api_key="")
 from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
